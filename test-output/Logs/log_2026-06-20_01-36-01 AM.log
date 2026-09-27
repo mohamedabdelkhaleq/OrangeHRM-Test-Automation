@@ -1,0 +1,38 @@
+[DEBUG] 20-06-2026 01:36:01 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 20-06-2026 01:36:02 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.LoginTest@74ad8d05] 1059115762
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.testValidLogin()[pri:0, instance:com.orangehrm.LoginTest@74ad8d05] 156971932
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 01:36:03 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 01:36:03 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 01:36:03 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 20-06-2026 01:36:08 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 20-06-2026 01:36:09 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.cssSelector: input[placeholder='Username']
+[INFO] 20-06-2026 01:36:09 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  admin123  into element: By.name: password
+[INFO] 20-06-2026 01:36:09 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 20-06-2026 01:36:09 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 20-06-2026 01:36:09 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin started
+[ERROR] 20-06-2026 01:36:09 [main] [com.orangehrm.utils.dataReader.JsonReader] - Error reading json file:  Valid credentials.username json string can not be null or empty
+[INFO] 20-06-2026 01:36:19 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin failed

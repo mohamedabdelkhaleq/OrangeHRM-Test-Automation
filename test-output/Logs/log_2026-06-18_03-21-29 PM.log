@@ -1,0 +1,795 @@
+[DEBUG] 18-06-2026 15:21:29 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 18-06-2026 15:21:30 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.LoginTest@4c2869a9] 379301782
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.testValidLogin()[pri:0, instance:com.orangehrm.LoginTest@4c2869a9] -522842048
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 15:21:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 18-06-2026 15:21:31 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 18-06-2026 15:21:31 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 18-06-2026 15:21:34 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 18-06-2026 15:21:34 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 18-06-2026 15:21:34 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin started
+[ERROR] 18-06-2026 15:21:34 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:34 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:35 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:36 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:37 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such element: Unable to locate element: {"method":"css selector","selector":" input[placeholder='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:38 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   Unable to find element with locator By.cssSelector:  input[placeholder='username']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: driver.version: RemoteWebDriver
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:39 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:40 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:41 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:42 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:43 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[ERROR] 18-06-2026 15:21:44 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.cssSelector:  input[placeholder='username']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40e354f57c304fb7cda432e2af801823, findElement {value= input[placeholder='username'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, goog:processID: 15180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e354f57c304fb7cda432e2af801823
+[INFO] 18-06-2026 15:21:44 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin failed

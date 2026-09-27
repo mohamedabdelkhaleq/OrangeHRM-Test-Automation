@@ -1,0 +1,41 @@
+[DEBUG] 27-09-2026 19:39:07 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 27-09-2026 19:39:07 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 27-09-2026 19:39:08 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 27-09-2026 19:39:08 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.LoginTest@6d171ce0] 931816141
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.testValidLogin()[pri:0, instance:com.orangehrm.LoginTest@6d171ce0] 29672311
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 27-09-2026 19:39:09 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 27-09-2026 19:39:09 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 27-09-2026 19:39:09 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 27-09-2026 19:39:12 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 27-09-2026 19:39:12 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 27-09-2026 19:39:12 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin started
+[DEBUG] 27-09-2026 19:39:12 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['ValidCredentials']['username']
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.cssSelector: input[placeholder='Username']
+[DEBUG] 27-09-2026 19:39:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['ValidCredentials']['username']
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.name: password
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.LoginTest] - Login Button clicked
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.utils.actions.BrowserActions] - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 27-09-2026 19:39:13 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case testValidLogin failed

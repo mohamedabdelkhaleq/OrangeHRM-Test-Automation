@@ -1,0 +1,5 @@
+[INFO] 17-06-2026 15:32:42 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: chrome
+[INFO] 17-06-2026 15:32:42 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[INFO] 17-06-2026 15:34:26 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 17-06-2026 15:35:00 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 17-06-2026 15:35:00 [main] [com.orangehrm.BaseTest] - Test environment setup complete

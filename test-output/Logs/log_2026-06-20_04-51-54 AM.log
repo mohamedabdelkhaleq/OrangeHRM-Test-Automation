@@ -1,0 +1,48 @@
+[DEBUG] 20-06-2026 04:51:54 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 20-06-2026 04:51:55 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[ERROR] 20-06-2026 04:51:56 [main] [com.orangehrm.utils.dataReader.JsonReader] - Error reading json file:  employee.json src\test\resources\test-data\employee.json (The system cannot find the file specified)
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 1678451980
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.EmployeeManagementTests@ae7950d] -715465990
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@ae7950d] 1578295847
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:com.orangehrm.EmployeeManagementTests@ae7950d] 675352961
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 04:51:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 04:51:56 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 04:51:56 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 20-06-2026 04:52:02 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 20-06-2026 04:52:05 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.cssSelector: input[placeholder='Username']
+[INFO] 20-06-2026 04:52:05 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  admin123  into element: By.name: password
+[INFO] 20-06-2026 04:52:05 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 20-06-2026 04:52:05 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 20-06-2026 04:52:05 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee started
+[INFO] 20-06-2026 04:52:16 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee failed

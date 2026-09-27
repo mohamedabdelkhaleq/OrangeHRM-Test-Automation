@@ -1,0 +1,18 @@
+[
+  {
+    "scenario": "Apply for annual leave",
+    "leave_type": "Annual Leave",
+    "from_date": "2026-07-10",
+    "to_date": "2026-07-15",
+    "reason": "Family vacation",
+    "duration": "Full Day"
+  },
+  {
+    "scenario": "Apply for medical leave",
+    "leave_type": "Medical Leave",
+    "from_date": "2026-08-01",
+    "to_date": "2026-08-01",
+    "reason": "Dental appointment",
+    "duration": "Half Day - Morning"
+  }
+]

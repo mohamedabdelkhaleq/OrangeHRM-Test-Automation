@@ -1,0 +1,95 @@
+[DEBUG] 20-06-2026 09:45:15 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 20-06-2026 09:45:15 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] 543162603
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EmployeeManagementTests.addNewSystemUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] 1261645164
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] -1458042856
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EmployeeManagementTests.addreqisteredUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] 170673137
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR EmployeeManagementTests.addreqisteredUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] ==> EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe]
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph]   REMOVED EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 09:45:17 [ForkJoinPool.commonPool-worker-2] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR EmployeeManagementTests.addreqisteredUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] ==> EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe]
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph]   REMOVED PRED EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe] FROM NODE EmployeeManagementTests.addreqisteredUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe]
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph]               EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe]
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph]               EmployeeManagementTests.addreqisteredUser()[pri:0, instance:com.orangehrm.EmployeeManagementTests@55ecbafe]
+[TRACE] 20-06-2026 09:45:17 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 09:45:17 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 09:45:17 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 20-06-2026 09:45:22 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 20-06-2026 09:45:24 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.cssSelector: input[placeholder='Username']
+[INFO] 20-06-2026 09:45:24 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  admin123  into element: By.name: password
+[INFO] 20-06-2026 09:45:24 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 20-06-2026 09:45:24 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 20-06-2026 09:45:24 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee started
+[INFO] 20-06-2026 09:45:31 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[normalize-space()='PIM']
+[INFO] 20-06-2026 09:45:35 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[normalize-space()='Add']
+[DEBUG] 20-06-2026 09:45:35 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['first_name']
+[INFO] 20-06-2026 09:45:36 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  John  into element: By.xpath: (//input[@placeholder='First Name'])[1]
+[DEBUG] 20-06-2026 09:45:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['last_name']
+[INFO] 20-06-2026 09:45:36 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Doe  into element: By.xpath: //input[@placeholder='Last Name']
+[DEBUG] 20-06-2026 09:45:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['employee_id']
+[INFO] 20-06-2026 09:45:36 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  EMP198  into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] 20-06-2026 09:45:37 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[DEBUG] 20-06-2026 09:45:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['first_name']
+[DEBUG] 20-06-2026 09:45:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['last_name']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:44 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:    from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:  John Doe  from element: By.xpath: //h6[@class='oxd-text oxd-text--h6 --strong']
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee passed
+[INFO] 20-06-2026 09:45:45 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addreqisteredUser started
+[INFO] 20-06-2026 09:45:47 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[normalize-space()='PIM']
+[INFO] 20-06-2026 09:45:50 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[normalize-space()='Add']
+[DEBUG] 20-06-2026 09:45:50 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['first_name']
+[INFO] 20-06-2026 09:45:51 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  John  into element: By.xpath: (//input[@placeholder='First Name'])[1]
+[DEBUG] 20-06-2026 09:45:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['last_name']
+[INFO] 20-06-2026 09:45:51 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Doe  into element: By.xpath: //input[@placeholder='Last Name']
+[DEBUG] 20-06-2026 09:45:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['employee_id']
+[INFO] 20-06-2026 09:45:52 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  EMP198  into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] 20-06-2026 09:45:53 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[INFO] 20-06-2026 09:45:53 [main] [com.orangehrm.utils.actions.ElementActions] - Text retrieved:  Employee Id already exists  from element: By.xpath: //span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']
+[INFO] 20-06-2026 09:45:53 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addreqisteredUser passed
+[INFO] 20-06-2026 09:45:53 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewSystemUser started
+[INFO] 20-06-2026 09:45:56 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[normalize-space()='PIM']
+[INFO] 20-06-2026 09:46:00 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[normalize-space()='Add']
+[DEBUG] 20-06-2026 09:46:00 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['executiveEmployee']['first_name']
+[INFO] 20-06-2026 09:46:02 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Jane  into element: By.xpath: (//input[@placeholder='First Name'])[1]
+[DEBUG] 20-06-2026 09:46:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['executiveEmployee']['last_name']
+[INFO] 20-06-2026 09:46:02 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Smith  into element: By.xpath: //input[@placeholder='Last Name']
+[DEBUG] 20-06-2026 09:46:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['executiveEmployee']['employee_id']
+[INFO] 20-06-2026 09:46:02 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  EMP10223  into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[@class='oxd-switch-input oxd-switch-input--active --label-right']
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  executiveEmployee.username  into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[3]
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  executiveEmployee.password  into element: By.xpath: (//input[@type='password'])[1]
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  executiveEmployee.password  into element: By.xpath: (//input[@type='password'])[2]
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.utils.actions.BrowserActions] - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
+[INFO] 20-06-2026 09:46:04 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewSystemUser passed

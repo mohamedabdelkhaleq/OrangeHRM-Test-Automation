@@ -1,0 +1,893 @@
+[DEBUG] 18-06-2026 19:30:02 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 18-06-2026 19:30:02 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.EmployeeManagementTests@3721177d] 26500458
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE EmployeeManagementTests.addNewEmployee()[pri:0, instance:com.orangehrm.EmployeeManagementTests@3721177d] -1974705001
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 18-06-2026 19:30:07 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 18-06-2026 19:30:07 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 18-06-2026 19:30:07 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 18-06-2026 19:30:10 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[ERROR] 18-06-2026 19:30:10 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:10 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:10 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  Admin  into element: By.name: username   no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=149.0.7827.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[INFO] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.name: username
+[INFO] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  admin123  into element: By.name: password
+[INFO] 18-06-2026 19:30:11 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 18-06-2026 19:30:11 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 18-06-2026 19:30:11 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee started
+[INFO] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[normalize-space()='PIM']
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:17 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:18 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:19 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:20 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:21 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:22 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:23 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:24 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:25 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:26 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:27 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:27 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[ERROR] 18-06-2026 19:30:27 [main] [com.orangehrm.utils.actions.ElementActions] - Type error:  khaled  into element: By.xpath: //input[@placeholder='First Name']   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2603970b8a147833cf3cb773b00907f, findElement {value=//input[@placeholder='First Name'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ORD0CD~1.G\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59362}, goog:processID: 17692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2603970b8a147833cf3cb773b00907f
+[INFO] 18-06-2026 19:30:27 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case addNewEmployee failed

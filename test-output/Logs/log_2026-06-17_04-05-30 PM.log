@@ -1,0 +1,34 @@
+[DEBUG] 17-06-2026 16:05:30 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 17-06-2026 16:05:30 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Edge
+[INFO] 17-06-2026 16:05:30 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser EDGE
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 1678451980
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.LoginTest@178270b2] -503990625
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.testValidLogin()[pri:0, instance:com.orangehrm.LoginTest@178270b2] -1406134455
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:com.orangehrm.LoginTest@178270b2] 886828326
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 17-06-2026 16:05:32 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 17-06-2026 16:05:32 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 17-06-2026 16:05:32 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 17-06-2026 16:05:35 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 17-06-2026 16:05:35 [main] [com.orangehrm.BaseTest] - Test environment setup complete

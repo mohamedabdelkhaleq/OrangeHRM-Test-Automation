@@ -1,0 +1,29 @@
+{
+  "ValidCredentials": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUsername": {
+    "username": "InvalidUser",
+    "password": "admin123"
+  },
+  "InvalidPassword": {
+    "username": "Admin",
+    "password": "wrongpassword",
+    "expected_result": "Invalid credentials"
+  },
+  "SQLInjection": {
+    "username": "admin' OR '1'='1",
+    "password": "password123",
+    "expected_result": "Invalid credentials"
+  },
+  "EmptyFields": {
+    "username": "",
+    "password": "",
+    "expected_result": "Required"
+  },
+  "XSSInjection": {
+    "username": "<script>alert('XSS')</script>",
+    "password": "anyPassword123"
+  }
+}

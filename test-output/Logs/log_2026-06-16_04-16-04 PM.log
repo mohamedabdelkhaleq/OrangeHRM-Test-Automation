@@ -1,0 +1,4 @@
+[INFO] 16-06-2026 16:16:04 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser EDGE
+[INFO] 16-06-2026 16:16:05 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 16-06-2026 16:19:00 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 16-06-2026 16:19:00 [main] [com.orangehrm.BaseTest] - Test environment setup complete

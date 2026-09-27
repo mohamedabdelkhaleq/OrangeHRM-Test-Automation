@@ -1,0 +1,98 @@
+[DEBUG] 20-06-2026 06:38:08 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml"
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.listeners.TestNGListeners] - Test Execution started
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.listeners.TestNGListeners] - Directories cleaned
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.listeners.TestNGListeners] - Directories created
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.listeners.TestNGListeners] - Properties loaded
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.listeners.TestNGListeners] - Allure environment set
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.drivers.GUIDriver] - Initializing GUIDriver with Browser: Chrome
+[INFO] 20-06-2026 06:38:09 [main] [com.orangehrm.drivers.GUIDriver] - Statring driver with browser CHROME
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] -28981133
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] 836975005
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] -1750874761
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] 1359079241
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] 1960680561
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step7_logoutAndVerifyRedirect()[pri:7, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] -108325751
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step7_logoutAndVerifyRedirect()[pri:7, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] -1340171766
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] -343567279
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] 1438745833
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM INDEPENDENT OBJECTS
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-6] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step7_logoutAndVerifyRedirect()[pri:7, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-7] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-2] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-5] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-4] [org.testng.internal.Graph] - [Graph]   ADDING PREDECESSOR FOR E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] ==> E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-8] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-6] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-4] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-7] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [ForkJoinPool.commonPool-worker-4] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]   REMOVED PRED E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0] FROM NODE E2E1_FullHrLifecycleTest.step7_logoutAndVerifyRedirect()[pri:7, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step1_loginAsAdmin()[pri:1, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step2_addNewEmployee()[pri:2, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step3_createSystemUser()[pri:3, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step4_logout()[pri:4, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step5_loginAsNewUser()[pri:5, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step6_verifyDashboardUsername()[pri:6, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph]               E2E1_FullHrLifecycleTest.step7_logoutAndVerifyRedirect()[pri:7, instance:com.orangehrm.tests.e2e.E2E1_FullHrLifecycleTest@676ff3b0]
+[TRACE] 20-06-2026 06:38:10 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 20-06-2026 06:38:10 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\O.R.G\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] 20-06-2026 06:38:10 [main] [com.orangehrm.BaseTest] - Setting up the test environment
+[INFO] 20-06-2026 06:38:13 [main] [com.orangehrm.utils.actions.BrowserActions] - Navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] 20-06-2026 06:38:13 [main] [com.orangehrm.BaseTest] - Test environment setup complete
+[INFO] 20-06-2026 06:38:13 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step1_loginAsAdmin started
+[INFO] 20-06-2026 06:38:13 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Admin  into element: By.cssSelector: input[placeholder='Username']
+[INFO] 20-06-2026 06:38:13 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  admin123  into element: By.name: password
+[INFO] 20-06-2026 06:38:14 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.cssSelector: button[type='submit']
+[INFO] 20-06-2026 06:38:14 [main] [com.orangehrm.utils.actions.BrowserActions] - Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 20-06-2026 06:38:14 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step1_loginAsAdmin passed
+[INFO] 20-06-2026 06:38:14 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step2_addNewEmployee started
+[INFO] 20-06-2026 06:38:16 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //span[normalize-space()='PIM']
+[INFO] 20-06-2026 06:38:17 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[normalize-space()='Add']
+[DEBUG] 20-06-2026 06:38:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['first_name']
+[INFO] 20-06-2026 06:38:18 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  John  into element: By.xpath: (//input[@placeholder='First Name'])[1]
+[DEBUG] 20-06-2026 06:38:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['last_name']
+[INFO] 20-06-2026 06:38:18 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  Doe  into element: By.xpath: //input[@placeholder='Last Name']
+[DEBUG] 20-06-2026 06:38:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['employee_id']
+[INFO] 20-06-2026 06:38:18 [main] [com.orangehrm.utils.actions.ElementActions] - Text entered:  EMP1021  into element: By.xpath: (//input[@class='oxd-input oxd-input--active'])[2]
+[INFO] 20-06-2026 06:38:18 [main] [com.orangehrm.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[DEBUG] 20-06-2026 06:38:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['first_name']
+[DEBUG] 20-06-2026 06:38:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validEmployee']['last_name']
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step2_addNewEmployee failed
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step3_createSystemUser started
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step3_createSystemUser skipped
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step4_logout started
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step4_logout skipped
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step5_loginAsNewUser started
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step5_loginAsNewUser skipped
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step6_verifyDashboardUsername started
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step6_verifyDashboardUsername skipped
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step7_logoutAndVerifyRedirect started
+[INFO] 20-06-2026 06:38:28 [main] [com.orangehrm.listeners.TestNGListeners] - Test Case step7_logoutAndVerifyRedirect skipped

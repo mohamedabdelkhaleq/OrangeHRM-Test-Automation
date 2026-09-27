@@ -1,0 +1,6 @@
+{
+  "missingUsername": { "employeeName": "Mike", "username": "", "password": "Test@1234" },
+  "missingPassword": { "employeeName": "Mike", "username": "mikeuser01", "password": "" },
+  "mismatchPassword": { "employeeName": "Mike", "username": "mikeuser02", "password": "Test@1234", "confirmPassword": "Different@1234" },
+  "duplicateUser": { "employeeName": "Admin", "username": "Admin", "password": "Test@1234" }
+}
